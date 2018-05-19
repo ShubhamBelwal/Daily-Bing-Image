@@ -1,4 +1,4 @@
-import requests,json,os,ctypes
+import requests,os,ctypes
 
 bing_api = "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
 prefix = "https://www.bing.com"
