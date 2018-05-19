@@ -22,4 +22,6 @@ Resolution can be any of the following:
 
 ## Limitations
 
-Currently only fetches images for the US, other locations to be added soon
+* Currently only fetches images for the US, other locations to be added soon
+
+* Only works on Windows
