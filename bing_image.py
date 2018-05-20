@@ -1,9 +1,11 @@
 import requests,os,ctypes
 
-bing_api = "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
+bing_url = "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt="
 prefix = "https://www.bing.com"
 resolution = "1366x768"
+region_code = "en-in"
 def get_and_set_wallpaper():
+    bing_api = bing_url + region_code
     os.makedirs('Bing',exist_ok=True)
     dir_path = os.path.join(os.getcwd(),"Bing")
     response = requests.get(bing_api).json()
