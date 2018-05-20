@@ -22,7 +22,7 @@ Running this script will do the following:
 * Region code can have any of the following values:
 
 de-de (Germany), en-au (Australia), en-ca (Canada - English), en-gb (United Kingdom), en-in (India), en-us (United States),
-fr-ca (Canada - French), fr-fr (France), ja-jp (Japan), pt-br (Brazil), zh-cn (China), en-ww (International).
+  fr-ca (Canada - French), fr-fr (France), ja-jp (Japan), pt-br (Brazil), zh-cn (China), en-ww (International).
 ## Limitations
 
 * Only works on Windows
